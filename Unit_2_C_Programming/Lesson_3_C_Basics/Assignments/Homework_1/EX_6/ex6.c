@@ -13,22 +13,22 @@
 
 int main(int argc, char** argv)
 {
-    int a = 0;
-    int b = 0;
-    int temp = 0;
+    float a = 0;
+    float b = 0;
+    float temp = 0;
 
     printf("Please enter the value of a: ");
     fflush(stdin); fflush(stdout);
-    scanf("%d", &a);
+    scanf("%f", &a);
 
     printf("Please enter the value of b: ");
     fflush(stdin); fflush(stdout);
-    scanf("%d", &b);
+    scanf("%f", &b);
 
     temp = a; 
     a = b; 
     b = temp;
 
-    printf("The new value of a = %d\nThe new value of b = %d\n", a, b);
+    printf("The new value of a = %f\nThe new value of b = %f\n", a, b);
     return 0;
 }
